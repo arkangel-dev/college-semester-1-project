@@ -1,0 +1,206 @@
+---------------------------------------------------
+Test Message: Where is Bristol
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Where is London
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: Where is Bath
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Where is UWE
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Where is  beauty
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Whereabouts is Bristol
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Whereabouts is London
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: Whereabouts is Bath
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Whereabouts is  beauty
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Tell me where Bristol is
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Tell me where Bath is
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Tell me where UWE is
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Tell me where beauty is
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Where is Bristol please?
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Tell me where London is please
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: Where is UWE please
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Whereabouts is  beauty please?
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Where is Bristol Chatter
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Whereabouts is Bath Chatter
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Where is UWE Chatter
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Whereabouts is  beauty Chatter?
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Where is Bristol please Chatter
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: Whereabouts is Bath please Chatter
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Tell me where London is please Chatter
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: Where is UWE please Chatter
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Whereabouts is  beauty please Chatter
+Bot Response: I have no answer for that.
+Exp Response: In the eye of the beholder
+---------------------------------------------------
+Test Message: Why not?
+Bot Response: I have no answer for that.
+Exp Response: I do not have an answer for that
+---------------------------------------------------
+Test Message: Where is Keynsham
+Bot Response: I have no answer for that.
+Exp Response: I do not know where Keynsham is
+---------------------------------------------------
+Test Message: Why not?
+Bot Response: I have no answer for that.
+Exp Response: Because I do not have a category to connect me to a mapping service
+---------------------------------------------------
+Test Message: What is beauty?
+Bot Response: I have no answer for that.
+Exp Response: A subjective judgment evoked by an emotional response
+---------------------------------------------------
+Test Message: Please tell me where Bath is Chatter
+Bot Response: I have no answer for that.
+Exp Response: In Somerset
+---------------------------------------------------
+Test Message: Chatter where is UWE please?
+Bot Response: I have no answer for that.
+Exp Response: In north Bristol
+---------------------------------------------------
+Test Message: Please Please tell me where london is
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: Where is chatter?
+Bot Response: I have no answer for that.
+Exp Response: I do not have an answer for that
+---------------------------------------------------
+Test Message: Chatter please
+Bot Response: I have no answer for that.
+Exp Response: I do not have an answer for that
+---------------------------------------------------
+Test Message: Is Bath in Bristol
+Bot Response: I have no answer for that.
+Exp Response: I do not have an answer for that
+---------------------------------------------------
+Test Message: What is Bristol?
+Bot Response: I have no answer for that.
+Exp Response: Bristol is a city.
+---------------------------------------------------
+Test Message: Where is it?
+Bot Response: I have no answer for that.
+Exp Response: In the South-West of the U.K.
+---------------------------------------------------
+Test Message: What is London?
+Bot Response: I have no answer for that.
+Exp Response: London is a city.
+---------------------------------------------------
+Test Message: Where is it?
+Bot Response: I have no answer for that.
+Exp Response: Roughly half-way between Hatfield and Severnoaks
+---------------------------------------------------
+Test Message: What is the population of Bristol?
+Bot Response: I have no answer for that.
+Exp Response: The population of Bristol is about 430000
+---------------------------------------------------
+Test Message: How many people live in Bristol
+Bot Response: I have no answer for that.
+Exp Response: The population of Bristol is about 430000
+---------------------------------------------------
+Test Message: What is the population of Bath?
+Bot Response: I have no answer for that.
+Exp Response: The population of Bath is about 84000
+---------------------------------------------------
+Test Message: How many people live in Bath
+Bot Response: I have no answer for that.
+Exp Response: The population of Bath is about 84000
+---------------------------------------------------
+Test Message: What is the population of London?
+Bot Response: I have no answer for that.
+Exp Response: The population of London is about 8.6 million
+---------------------------------------------------
+Test Message: What is UWE
+Bot Response: I have no answer for that.
+Exp Response: I do not have an answer for that
+---------------------------------------------------
+Test Message: How many people live in Keynsham
+Bot Response: I have no answer for that.
+Exp Response: I do not know what the population of Keynsham is
+---------------------------------------------------
+Test Message: Why not?
+Bot Response: I have no answer for that.
+Exp Response: Because it is too hard to count the residents of Keynsham
+---------------------------------------------------
+Test Message: How many people live in space
+Bot Response: I have no answer for that.
+Exp Response: I do not know what the population of space is
+---------------------------------------------------
+Test Message: Why not?
+Bot Response: I have no answer for that.
+Exp Response: Because it is too hard to count the residents of space
+====================================================
+SUMMARY
+
+Number of Exactly correct answers: 150
+Number of categories used:0
+Total score = 150
