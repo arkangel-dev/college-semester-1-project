@@ -41,8 +41,7 @@ int  train( double **trainingSamples, char *trainingLabels, int numSamples, int 
         returnval=0;
     }
     
-    //this is a silly trivial train()_ function
-    fprintf(stdout,"no ML algorithm implemented yet\n");
+
     
     
     //make a simple copy of the data we are being passed but don't do anything with it
@@ -77,11 +76,51 @@ int  train( double **trainingSamples, char *trainingLabels, int numSamples, int 
 
 char  predictLabel(double *sample, int numFeatures)
 {
-    
-       //this is a silly trivial test function
-       // obviously you need to replace this with something that uses the model you built in your train() function
-        char prediction = 'c';
-    
+
+	// alright, So Im fucking annoyed because we procasinated for a better part of two whole months.
+	// so lets into it, because I have a ton of shows I need to finish watching...
+
+	// first we define the floating point value variables
+	char prediction = 'c';
+	float currentdist, result, sum, wcomponent, xcomponent, ycomponent, zcomponent;
+	float nearestDistance = 9999e45;
+	
+	// then we define the int variables
+	int currentTest, BestIndex, feature = 0;
+	
+	// then we are going to loop trought all the values of the of the
+	// dataset.. 
+	for (currentTest = 0; currentTest < trainingSetSize; currentTest++){
+		
+		// this sum variable will store the distance the
+		// current dataset has scored and will be reset to zero, because why the hell not?
+		sum = 0;
+		result = 0;
+		
+		
+			
+			// this part is a bit complicated so its a bit difficult to explain and I really dont want to
+			// so I won't...
+			for (feature = 0; feature < numFeatures; feature++){
+				sum = sum + pow(myModel[currentTest][feature] - sample[feature], 2);
+			}
+			
+			sum = sqrt(sum);
+
+		// then we check if we got the lowest value that the
+		// the system has gotten so far and if so we update the lowest value to that value
+		// also we update the index with the best performing node and shiit
+		if (sum < nearestDistance) {
+            nearestDistance = sum;
+            BestIndex = currentTest;
+        }
+
+	}
+	
+	// now we are going to use that best index value and 
+	// get the model label for that BestIndex index and return
+	// that shit and get the system to return our results...
+    prediction = myModelLabels[BestIndex];
     return prediction;
     
 }

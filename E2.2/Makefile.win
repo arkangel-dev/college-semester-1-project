@@ -1,15 +1,15 @@
-# Project: K-Nearest-Neighbour
+# Project: E2.2
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = TrainAndTest.o exampleMain.o
-LINKOBJ  = TrainAndTest.o exampleMain.o
+OBJ      = exampleMain.o TrainAndTest.o
+LINKOBJ  = exampleMain.o TrainAndTest.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = K-Nearest-Neighbour.exe
+BIN      = E2.2.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,8 +24,8 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-TrainAndTest.o: TrainAndTest.c
-	$(CC) -c TrainAndTest.c -o TrainAndTest.o $(CFLAGS)
-
 exampleMain.o: exampleMain.c
 	$(CC) -c exampleMain.c -o exampleMain.o $(CFLAGS)
+
+TrainAndTest.o: TrainAndTest.c
+	$(CC) -c TrainAndTest.c -o TrainAndTest.o $(CFLAGS)
